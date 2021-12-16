@@ -14,6 +14,7 @@ import VectorLogo from '../image_resources/Vector.png'
 export default function Login() {
     return (
         <div>
+
             <div className="register-photo">
                 <h2 className="text">The Journey is our home</h2>
                 <div className="form-container">

@@ -1,0 +1,128 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+
+
+}
+body{
+   height:1000px;
+    background-color: white;
+    background-image:  linear-gradient( #FAEE6D 0%, #FFFFFF 20%);
+   
+}
+.logo{
+    position: absolute;
+width: 102px;
+height: 66px;
+left: 280px;
+top: 34px;
+
+}
+.navbar{
+    list-style: none;
+    justify-self: end;
+    
+   
+   
+}
+.navbar ul{
+    position: absolute;
+width: 54px;
+height: 44px;
+left: 1000px;
+top: 39px;
+display: flex;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 44px;
+/* identical to box height, or 244% */
+
+text-align: center;
+
+color: #515151;
+
+
+    
+}
+.navbar li{
+    position: relative;
+    padding-left: 30px;
+    right:200px;
+    bottom: 250px;
+   
+}
+
+
+
+
+.faq h1{
+    position: absolute;
+width: 396px;
+height: 128px;
+left: 250px;
+top: 164px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 64px;
+/* or 139% */
+
+
+color: #000000;
+
+
+}
+
+.faq .accordion{
+    display: flex;
+flex-direction: column;
+font-size: 1.2rem;
+
+padding: 0px;
+
+position: absolute;
+width: 695px;
+height: 667px;
+left: 250px;
+top: 324px;
+filter: drop-shadow(0px 0px 14px rgba(113, 113, 113, 0.65));
+
+
+}
+.image .techi{
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    left: 1100px;
+    top: 320px;
+    
+}
+.text{
+    position: absolute;
+width: 401px;
+height: 51px;
+left: 1150px;
+top: 700px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+text-align: center;
+
+color: #212121;
+
+}
+.text .link{
+    text-decoration: none;
+}
