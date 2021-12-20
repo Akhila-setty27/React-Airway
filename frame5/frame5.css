@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  /*background-color: #e5e5e5;*/
+}
+body {
+  background-image: url("images/Frame\ 7.svg");
+  background-repeat: no-repeat;
+}
+nav {
+  list-style: none;
+  justify-self: end;
+  display: flex;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+nav .logo {
+  position: absolute;
+  width: 102px;
+  height: 66px;
+  left: 280px;
+  top: 28px;
+  background: rgba(33, 33, 33, 0, 8);
+}
+nav .logo p {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 4px;
+  align-items: center;
+}
+nav .home {
+  display: inline;
+  list-style-type: none;
+  justify-self: end;
+  float: right;
+  position: absolute;
+  width: 54px;
+  height: 44px;
+  left: 1110px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #515151;
+}
+nav .history {
+  position: absolute;
+  width: 62px;
+  height: 44px;
+  left: 1219px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #515151;
+}
+nav .points {
+  position: absolute;
+  width: 55px;
+  height: 44px;
+  left: 1336px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #515151;
+}
+nav .account {
+  position: absolute;
+  width: 77px;
+  height: 44px;
+  left: 1446px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #000000;
+}
+nav .photo {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 1581px;
+  top: 30px;
+
+  /*background: url(.png);*/
+}
+nav .photo2 {
+  position: absolute;
+  width: 7.39px;
+  height: 7.39px;
+  left: 1629.68px;
+  top: 35.55px;
+
+  background: #6fcb4f;
+}
+
+nav .rectangle14 {
+  opacity: 0.3;
+  position: absolute;
+  width: 587px;
+  height: 726px;
+  left: 280px;
+  top: 171px;
+}
+
+nav .rectangle13 {
+  opacity: 0.3;
+  position: absolute;
+  width: 522px;
+  height: 269px;
+  left: 325px;
+  top: 211px;
+
+  background: #ffffff;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+nav .rectangle61 {
+  opacity: 0.3;
+  position: absolute;
+  width: 522px;
+  height: 80px;
+  left: 325px;
+  top: 508px;
+
+  background: #ffffff;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+nav .rectangle62 {
+  opacity: 0.3;
+  position: absolute;
+  width: 522px;
+  height: 80px;
+  left: 325px;
+  top: 612px;
+
+  background: #ffffff;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+nav .rectangle63 {
+  opacity: 0.3;
+  position: absolute;
+  width: 522px;
+  height: 80px;
+  left: 325px;
+  top: 716px;
+
+  background: #ffffff;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+nav .rectangle71 {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 760px;
+  top: 530px;
+}
+
+nav .rectangle72 {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 760px;
+  top: 634px;
+}
+
+nav .rectangle73 {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 760px;
+  top: 738px;
+}
+nav .photo1 {
+  position: absolute;
+  width: 109px;
+  height: 109px;
+  left: 518px;
+  top: 246px;
+}
+nav .photo21 {
+  position: absolute;
+  width: 13.21px;
+  height: 13.21px;
+  left: 604.98px;
+  top: 255.91px;
+}
+nav .arrow1 {
+  position: absolute;
+  left: 775px;
+  top: 540px;
+}
+
+nav .arrow2 {
+  position: absolute;
+  left: 775px;
+  top: 644px;
+}
+
+nav .arrow3 {
+  position: absolute;
+  left: 775px;
+  top: 748px;
+}
+nav .settings {
+  position: relative;
+  left: 1000%;
+  top: 534px;
+}
+
+nav .clone {
+  position: relative;
+  left: 1000%;
+
+  top: 595px;
+}
+nav .user {
+  position: relative;
+  left: 1000%;
+
+  top: 650px;
+}
+nav .Name {
+  position: absolute;
+  width: 171px;
+  height: 54px;
+  left: 487px;
+  top: 371px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #1e1e1e;
+}
+nav .Email {
+  position: absolute;
+  width: 174px;
+  height: 27px;
+  left: 486px;
+  top: 425px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #aaaaaa;
+}
+nav .edit_info {
+  position: absolute;
+  width: 96px;
+  height: 36px;
+  left: 449px;
+  top: 530px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #616161;
+}
+nav .transaction {
+  position: absolute;
+  width: 234px;
+  height: 36px;
+  left: 449px;
+  top: 634px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #1e1e1e;
+}
+nav .help {
+  position: absolute;
+  width: 103px;
+  height: 36px;
+  left: 449px;
+  top: 738px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #1e1e1e;
+}
+
+nav .log_out {
+  position: absolute;
+  width: 89px;
+  height: 36px;
+  left: 528px;
+  top: 833px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #c03f7f;
+}
+
+nav .edit_account {
+  position: absolute;
+  width: 307px;
+  height: 28px;
+  left: 975px;
+  top: 250px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #212121;
+}
+
+form * {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+
+nav .user1 {
+  position: absolute;
+  left: 1000px;
+
+  top: 383px;
+}
+nav .message {
+  position: absolute;
+  left: 1000px;
+
+  top: 540px;
+}
+nav .phone {
+  position: absolute;
+  left: 1000px;
+
+  top: 689px;
+}
+
+nav .full_name1 {
+  position: absolute;
+  width: 114px;
+  height: 36px;
+  left: 1080px;
+  top: 390px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+
+nav .email1 {
+  position: absolute;
+  width: 114px;
+  height: 36px;
+  left: 1080px;
+  top: 539px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+
+nav .phone_no1 {
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 1080px;
+  top: 692px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+
+nav .tick {
+  position: absolute;
+  left: 71%;
+
+  top: 68.66%;
+}
+
+nav .cancel {
+  position: absolute;
+  width: 218px;
+  height: 64px;
+  left: 1275px;
+  top: 793px;
+
+  border: 1px solid #b63e7b;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+nav .save1 {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  left: 1054px;
+  top: 807px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+nav .cancel1 {
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  left: 1344px;
+  top: 807px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #b63e7b;
+}
+nav .policy {
+  position: absolute;
+  width: 124px;
+  height: 27px;
+  left: 140px;
+  top: 1027px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #333333;
+}
+
+nav .terms {
+  position: absolute;
+  width: 178px;
+  height: 27px;
+  left: 334px;
+  top: 1027px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #333333;
+}
+nav .dot {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 295px;
+  top: 1036px;
+
+  background: #969696;
+}
+nav .air {
+  position: absolute;
+  width: 125px;
+  height: 27px;
+  left: 897px;
+  top: 1027px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #747474;
+}
+
+form .con {
+  padding: 0.1;
+  position: absolute;
+  width: 725px;
+  height: 726px;
+  left: 916px;
+  top: 185px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+/* the header form form */
+header {
+  margin: 2% auto 10% auto;
+  text-align: left;
+}
+/* Login title form form */
+header h2 {
+  position: absolute;
+  width: 307px;
+  height: 28px;
+  left: 59px;
+  top: 72px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #212121;
+}
+
+label[for="full_name"] {
+  position: absolute;
+  width: 121px;
+  height: 3zpx;
+  left: 59px;
+  top: 173px;
+
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+label[for="email"] {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  left: 59px;
+  top: 322px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+label[for="phone_no"] {
+  position: absolute;
+  width: 119px;
+  height: 36px;
+  left: 59px;
+  top: 472px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+
+input[class="full_name"] {
+  position: absolute;
+  width: 218px;
+  height: 64px;
+  left: 70px;
+  top: 215px;
+  text-align: left;
+  border: 1px solid #8a8a8a;
+  margin: 8px 0;
+  padding: 10px 90px;
+  border-radius: 14px;
+  float: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+input[id="email"] {
+  position: absolute;
+  width: 218px;
+  height: 64px;
+  left: 70px;
+  top: 364px;
+  margin: 8px 0;
+  padding: 10px 90px;
+  border-radius: 14px;
+  border: 1px solid #8a8a8a;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+input[id="phone_no"] {
+  position: absolute;
+  width: 218px;
+  height: 64px;
+  left: 70px;
+  top: 517px;
+  margin: 8px 0;
+  padding: 10px 90px;
+  border-radius: 14px;
+  border: 1px solid #8a8a8a;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #7a7a7a;
+}
+focus input:focus {
+  transform: translateX(-2px);
+  border-radius: 5px;
+}
+
+.save {
+  position: absolute;
+  width: 214px;
+  height: 60px;
+  left: 70px;
+  top: 632px;
+  background: #b63e7b;
+  border-radius: 14px;
+  color: #ffffff;
+}
+
+.cancel {
+  position: absolute;
+  width: 214px;
+  height: 60px;
+  left: 300px;
+  top: 632px;
+  color: #b63e7b;
+  border: 1px solid #b63e7b;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+.input_box .icon1 {
+  position: absolute;
+  outline: none;
+  left: 13%;
+  top: 36.99%;
+  transform: translateY(-50%);
+  color: gray;
+}
+.input_box .icon2 {
+  position: absolute;
+  outline: none;
+  left: 13%;
+  top: 57.96%;
+  transform: translateY(-50%);
+  color: gray;
+}
+.input_box .icon3 {
+  position: absolute;
+  outline: none;
+  left: 13%;
+  top: 78.96%;
+  transform: translateY(-50%);
+  color: gray;
+}
+.input_box .icon4 {
+  position: absolute;
+  left: 57.88%;
+  right: 26.51%;
+  top: 76.36%;
+  bottom: 33.15%;
+}
