@@ -42,7 +42,7 @@ const App = () => {
     ];
 
     return (
-        <div>
+        <div className='qp'>
             <img src={Logo} alt="vector" className="logo" />
             <div className="navbar">
                 <ul>

@@ -1,11 +1,3 @@
- body{
-    position: relative;
-    width: 1298px;
-    height: 550px;
-    background: #F5D100;
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
-}
 .carousel-img1{
 position: absolute;
 width: 500px;
@@ -15,14 +7,18 @@ top: 138px;
 filter: drop-shadow(-4px 4px 22px rgba(0, 0, 0, 0.25));
 
 }
-body {
-  height: 600px;
+
+.body  {
+  background-color:  #F5D100;
+  height: 800px;
+  width:1710px;
   margin: 0;
   display: grid;
   grid-template-rows: 500px 100px;
   grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
   align-items: center;
   justify-items: center;
+
 }
 
 main#carousel {
@@ -110,7 +106,8 @@ a.signIn{
   font-family: 'Poppins', sans-serif;
   box-shadow: 0px 0px 24px rgba(0,0,0,0.25);
   position: absolute;
-  left: 572px;
+  top:595px;
+  left: 730px;
 }
 a.signIn:hover{
   background:black;
@@ -118,7 +115,8 @@ a.signIn:hover{
 }
 a.guestAc{
   position: absolute;
-left: 578px;
+  top:600px;
+left: 750px;
 padding-top: 60px;
   color: black;
   font-weight: 500;
@@ -128,10 +126,10 @@ text-decoration-line: underline;
 }
 .carousel-img2{
   position: absolute;
-width: 250px;
-height: 280px;
-right: -90px;
-top: 250px;
+width: 350px;
+height: 380px;
+right: -100px;
+top: 200px;
 
 filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
 

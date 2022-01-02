@@ -1,23 +1,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Poppins", sans-serif;
 
+.qp{
+  height: 800px;
+  background-color: white;
+  background-image:  linear-gradient( #FAEE6D 0%, #FFFFFF 20%);
+ 
+}
 
-}
-body{
-   height:1000px;
-    background-color: white;
-    background-image:  linear-gradient( #FAEE6D 0%, #FFFFFF 20%);
-   
-}
 .logo{
     position: absolute;
 width: 102px;
 height: 66px;
-left: 280px;
+left: 200px;
 top: 34px;
 
 }
@@ -32,8 +27,8 @@ top: 34px;
     position: absolute;
 width: 54px;
 height: 44px;
-left: 1000px;
-top: 39px;
+left: 1200px;
+top: 300px;
 display: flex;
 font-family: Poppins;
 font-style: normal;
@@ -44,7 +39,6 @@ line-height: 44px;
 
 text-align: center;
 
-color: #515151;
 
 
     
@@ -56,7 +50,23 @@ color: #515151;
     bottom: 250px;
    
 }
+.navbar .home{
+    text-decoration: none;
+    color:#1E1E1E;
+}
 
+.navbar .history{
+    text-decoration: none;
+    color:#1E1E1E;
+}
+.navbar .points{
+    text-decoration: none;
+    color:#1E1E1E;
+}
+.navbar .account{
+    text-decoration: none;
+    color:#1E1E1E;
+}
 
 
 
@@ -64,8 +74,8 @@ color: #515151;
     position: absolute;
 width: 396px;
 height: 128px;
-left: 250px;
-top: 164px;
+left: 150px;
+top: 130px;
 
 font-family: Poppins;
 font-style: normal;
@@ -90,8 +100,8 @@ padding: 0px;
 position: absolute;
 width: 695px;
 height: 667px;
-left: 250px;
-top: 324px;
+left: 150px;
+top: 350px;
 filter: drop-shadow(0px 0px 14px rgba(113, 113, 113, 0.65));
 
 
@@ -100,7 +110,7 @@ filter: drop-shadow(0px 0px 14px rgba(113, 113, 113, 0.65));
     position: absolute;
     width: 500px;
     height: 380px;
-    left: 1100px;
+    left: 950px;
     top: 320px;
     
 }
@@ -108,7 +118,7 @@ filter: drop-shadow(0px 0px 14px rgba(113, 113, 113, 0.65));
     position: absolute;
 width: 401px;
 height: 51px;
-left: 1150px;
+left: 990px;
 top: 700px;
 
 font-family: Poppins;

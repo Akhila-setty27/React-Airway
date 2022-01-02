@@ -12,8 +12,9 @@ export default function Carousels() {
         <div>
 
             <div>
-                <body>
+                <div className='body'>
                     <img src={img1} alt="airplane" className="carousel-img1" />
+                    <img src={img2} alt="luggage" className="carousel-img2" />
                     <input type="radio" name="position" />
                     <input type="radio" name="position" defaultChecked />
                     <input type="radio" name="position" />
@@ -34,19 +35,21 @@ export default function Carousels() {
                             <p className="text-center p-4">Let's make travel tension a thing of the past</p>
                         </div>
                     </main>
-                </body>
-                <div class="link">
-                    <ul>
-                        <li>
-                            <a href="SignUp.js" className="signIn" target="_blank" rel="noopener noreferrer"><i className="fab fa-google">Sign up with Google</i></a>
-                        </li>
-                        <li>
-                            <a href="#" className="guestAc">Or sign in as a Guest</a>
-                        </li>
-                    </ul>
+                    <div class="link">
+                        <ul>
+                            <li>
+                                <a href="SignUp.js" className="signIn" target="_blank" rel="noopener noreferrer"><i className="fab fa-google">Sign up with Google</i></a>
+                            </li>
+                            <li>
+                                <a href="#" className="guestAc">Or sign in as a Guest</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
+
             </div>
-            <img src={img2} alt="luggage" className="carousel-img2" />
+
         </div >
 
 
