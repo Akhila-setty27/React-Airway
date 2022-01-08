@@ -1,0 +1,999 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  /*background-color: #e5e5e5;*/
+}
+/*body {
+  background-image: url("images/Frame\ 7.svg");
+  background-repeat: no-repeat;
+}*/
+nav {
+    height: 205px;
+    background-color: white;
+    background-image: linear-gradient(#faee6f, white);
+      
+  /*list-style: none;
+  justify-self: end;
+  display: flex;*/
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+nav .logo {
+  position: absolute;
+  width: 102px;
+  height: 66px;
+  left: 280px;
+  top: 28px;
+  background: rgba(33, 33, 33, 0, 8);
+}
+nav .logo p {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 4px;
+  align-items: center;
+}
+nav .home {
+    position: absolute;
+    width: 55px;
+    height: 44px;
+    left: 1110px;
+    top: 39px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 44px;
+    /* identical to box height, or 244% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+nav .history {
+  position: absolute;
+  width: 62px;
+  height: 44px;
+  left: 1219px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #515151;
+}
+nav .points {
+  position: absolute;
+  width: 55px;
+  height: 44px;
+  left: 1336px;
+  top: 39px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 244% */
+
+  text-align: center;
+
+  color: #515151;
+}
+nav .account {
+    position: absolute;
+    width: 76px;
+    height: 44px;
+    left: 1446px;
+    top: 39px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 44px;
+    /* identical to box height, or 244% */
+    
+    text-align: center;
+    
+    color: #515151;
+}
+nav .photo {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 1581px;
+  top: 30px;
+
+  /*background: url(.png);*/
+}
+nav .photo2 {
+  position: absolute;
+  width: 7.39px;
+  height: 7.39px;
+  left: 1629.68px;
+  top: 26px;
+
+  
+}
+form * {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+  
+    color: #7a7a7a;
+}
+form .con1 {
+    position: absolute;
+    width: 587px;
+    height: 781px;
+    left: 275px;
+    top: 216px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+  }
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: left;
+  }
+  
+  header h3 {
+    position: absolute;
+    width: 415px;
+    height: 128px;
+    left: 66px;
+    top: 44px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 64px;
+    color: #000000;
+  }
+  header h2{
+    position: absolute;
+    width: 368px;
+    height: 72px;
+    left: 64px;
+    top: 56px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;  
+    
+    
+    color: #1E1E1E;
+  }
+nav .line{
+    position: absolute;
+    width: 478px;
+    height: 0px;
+    left: 34px;
+    top: 165px;   
+    
+}
+
+label[for="source"] {
+    position: absolute;
+    width: 126px;
+    height: 54px;
+    left: 66px;
+    top: 220px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+        
+    
+    color: #1E1E1E;
+    
+  }
+  label[for="destination"] {
+    position: absolute;
+    width: 207px;
+    height: 54px;
+    left: 66px;
+    top: 372px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #1E1E1E;
+  }
+  label[for="date"] {
+    position: absolute;
+    width: 86px;
+    height: 54px;
+    left: 66px;
+    top: 523px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #1E1E1E;
+    
+  }
+  
+  input[class="source"] {
+    position: absolute;
+    width: 522px;
+    height: 80px;
+    left: 30px;
+    top: 273px;
+    padding-left: 90px;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    box-sizing: border-box;
+    border-radius: 14px;
+    
+  }
+  input[id="destination"] {
+    position: absolute;
+    width: 522px;
+    height: 80px;
+    left: 30px;
+    top: 425px;
+    padding-left: 90px;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    box-sizing: border-box;
+    border-radius: 14px;
+  }
+  input[id="date"] {
+    position: absolute;
+    width: 311px;
+    height: 80px;
+    left: 30px;
+    top: 576px;
+    padding-left: 90px;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    box-sizing: border-box;
+    border-radius: 14px;
+  }
+  div .calendar{
+    position: absolute;
+    left: 66px;    
+    top: 598px;
+       
+    
+  }
+  focus input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+  }
+
+  nav .find_tickets{
+    position: absolute;
+    width: 522px;
+    height: 69px;
+    left: 34px;
+    top: 683px;
+    color: #212121;
+    background: linear-gradient(91.37deg, #F9ED69 0%, #B78E60 100%);
+    box-shadow: 0px 0px 30px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+form .con2{
+    position: absolute;
+    width: 727px;
+    height: 781px;
+    left: 700px;    
+    top: 4px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+
+/*container 1*/
+
+.con21{
+    position: absolute;
+    width: 606px;
+    height: 149px;
+    left: 64px;
+    top: 178px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+div .bangalore1{
+    position: absolute;
+    width: 126px;
+    height: 36px;
+    left: 51px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #1E1E1E;
+}
+div .chennai1{
+    position: absolute;
+    width: 103px;
+    height: 36px;
+    left: 426px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #1E1E1E;
+    
+}
+div .march1{
+    position: absolute;
+    width: 179px;
+    height: 41px;
+    left: 51px;
+    top: 84px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+}
+div .hr1{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 231px;
+    top: 77px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* or 117% */
+    
+    text-align: center;
+    
+    color: #1E1E1E;
+}
+div .jet1{
+    position: absolute;
+    width: 112px;
+    height: 35px;
+    left: 426px;
+    top: 86px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+    
+}
+div .ellipse1371{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: -10px;
+    top: -15px;
+}
+div .line11{
+    position: absolute;
+    width: 478px;
+    height: 0px;
+    left: 51px;
+    top: 32px;
+        
+}
+div .xs11{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 231px;
+  top: 11px;
+  
+}
+div .xs21{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 359.33px;
+  top: 11px;
+}
+
+div .xs31{
+  position: absolute;
+  width: 478px;
+  height: 0px;
+  left: 192px;
+  top: 60px;
+}
+div .xs41{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 80px;
+}
+div .xs51{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 100px;
+}
+div .xs61{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 60px;
+}
+div .xs71{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 80px;
+}
+div .xs81{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 100px;
+  }
+  div .s11{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 254.33px;
+    top: 15px;
+  }
+  div .s21{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 327.67px;
+    top: 15px;
+    
+  }
+  div .arr1{
+    position: absolute;
+    width: 26.67px;
+    height: 25px;
+    left: 286px;
+    top: 19px;
+  }
+  div .arrbox1{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 570px;
+    top: 44px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  /*container2*/
+  .con22{
+    position: absolute;
+    width: 606px;
+    height: 149px;
+    left: 64px;
+    top: 370px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+div .bangalore2{
+    position: absolute;
+    width: 126px;
+    height: 36px;
+    left: 51px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #1E1E1E;
+}
+div .chennai2{
+    position: absolute;
+    width: 103px;
+    height: 36px;
+    left: 426px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #1E1E1E;
+    
+}
+div .march2{
+    position: absolute;
+    width: 179px;
+    height: 41px;
+    left: 51px;
+    top: 84px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+}
+div .hr2{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 231px;
+    top: 77px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* or 117% */
+    
+    text-align: center;
+    
+    color: #1E1E1E;
+}
+div .jet2{
+    position: absolute;
+    width: 112px;
+    height: 35px;
+    left: 426px;
+    top: 86px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+    
+}
+div .ellipse1372{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: -10px;
+    top: -15px;
+}
+div .line12{
+    position: absolute;
+    width: 478px;
+    height: 0px;
+    left: 51px;
+    top: 32px;
+        
+}
+div .xs12{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 231px;
+  top: 11px;
+  
+}
+div .xs22{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 359.33px;
+  top: 11px;
+}
+
+div .xs32{
+  position: absolute;
+  width: 478px;
+  height: 0px;
+  left: 192px;
+  top: 60px;
+}
+div .xs42{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 80px;
+}
+div .xs52{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 100px;
+}
+div .xs62{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 60px;
+}
+div .xs72{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 80px;
+}
+div .xs82{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 100px;
+  }
+  div .s12{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 254.33px;
+    top: 15px;
+  }
+  div .s22{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 327.67px;
+    top: 15px;
+    
+  }
+  div .arr2{
+    position: absolute;
+    width: 26.67px;
+    height: 25px;
+    left: 286px;
+    top: 19px;
+  }
+  div .arrbox2{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 570px;
+    top: 44px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  /*container 3*/
+  .con23{
+    position: absolute;
+    width: 606px;
+    height: 149px;
+    left: 64px;
+    top: 562px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+div .bangalore3{
+    position: absolute;
+    width: 126px;
+    height: 36px;
+    left: 51px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #1E1E1E;
+}
+div .chennai3{
+    position: absolute;
+    width: 103px;
+    height: 36px;
+    left: 426px;
+    top: 21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #1E1E1E;
+    
+}
+div .march3{
+    position: absolute;
+    width: 179px;
+    height: 41px;
+    left: 51px;
+    top: 84px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+}
+div .hr3{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 231px;
+    top: 77px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* or 117% */
+    
+    text-align: center;
+    
+    color: #1E1E1E;
+}
+div .jet3{
+    position: absolute;
+    width: 112px;
+    height: 35px;
+    left: 426px;
+    top: 86px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #5C5C5C;
+    
+}
+div .ellipse1373{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: -10px;
+    top: -15px;
+}
+div .line13{
+    position: absolute;
+    width: 478px;
+    height: 0px;
+    left: 51px;
+    top: 32px;
+        
+}
+div .xs13{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 231px;
+  top: 11px;
+  
+}
+div .xs23{
+  position: absolute;
+  width: 8.33px;
+  height: 8.33px;
+  left: 359.33px;
+  top: 11px;
+}
+
+div .xs33{
+  position: absolute;
+  width: 478px;
+  height: 0px;
+  left: 192px;
+  top: 60px;
+}
+div .xs43{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 80px;
+}
+div .xs53{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 192px;
+  top: 100px;
+}
+div .xs63{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 60px;
+}
+div .xs73{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 80px;
+}
+div .xs83{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 394px;
+  top: 100px;
+  }
+  div .s13{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 254.33px;
+    top: 15px;
+  }
+  div .s23{
+    position: absolute;
+    width: 16.67px;
+    height: 16.67px;
+    left: 327.67px;
+    top: 15px;
+    
+  }
+  div .arr3{
+    position: absolute;
+    width: 26.67px;
+    height: 25px;
+    left: 286px;
+    top: 19px;
+  }
+  div .arrbox3{    
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 570px;
+    top: 44px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  div .seemore{
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: 235px;
+    top: 168px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    
+    text-align: center;
+    
+    color: #5CABF2;
+  }
+  div .seemorearr{
+    position: absolute;
+    width: 11px;
+    height: 22px;
+    left: 373px;
+    top: 172px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    
+    text-align: center;
+    
+    color: #5CABF2;
+    
+    transform: rotate(90deg);
+  }
